@@ -121,4 +121,47 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .cards {
+    min-width: 450px;
+    min-height: 450px;
+  }
+
+  .cards .card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .cards input {
+    width: 84px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cards {
+    min-width: 350px;
+    min-height: 350px;
+  }
+
+  .cards .card {
+    width: 250px;
+    height: 250px;
+  }
+
+  .cards input {
+    width: 54px;
+    font-size: 12px;
+  }
+
+  .fw-bold {
+    font-size: 12px;
+  }
+
+  #randomNumber {
+    font-size: 12px;
+  }
+
+  .cards #button-start {
+    padding: 7px;
+    font-size: 14px;
+  }
 }
